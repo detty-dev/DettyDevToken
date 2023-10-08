@@ -2,14 +2,14 @@
 pragma solidity ^0.8.19;
 
 
-import "openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
-import "openzeppelin-contracts/contracts/access/Ownable.sol";
-import "openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
-import "openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol"; 
+import "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
+import "lib/openzeppelin-contracts/contracts/access/Ownable.sol";
+import "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
+import "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol"; 
+
 import { IWETH }from "../src/interfaces/IWETH.sol";  
 import {IERC20} from "../src/interfaces/IERC20.sol";
 import {IRewardToken} from "../src/interfaces/IRewardToken.sol";
-import {ERC20} from "../src/ERC20.sol";
 import {RewardToken} from "../src/RewardToken.sol";
 
                    
